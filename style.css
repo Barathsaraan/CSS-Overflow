@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#home{
+	margin:2px;
+}
+.container1{
+	
+	background-color:green;
+	
+}
+.visible{
+	overflow:visible;
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.auto{
+	overflow:auto;
+	width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.hidden{
+	
+	overflow:hidden;
+		background-color:yellow;
+		width:200px;
+	height:200px;
+}
+
+.auto{
+	overflow:auto;
+		background-color:green;
+		width:200px;
+	height:200px;
+	background-color:yellow;
+}
+.clip{
+	overflow:clip;
+		background-color:yellow;
+		width:200px;
+	height:200px;
+}
+.scroll{
+	overflow:scroll;
+		background-color:yellow;
+		width:200px;
+	height:200px;
+}
+
+
